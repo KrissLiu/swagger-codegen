@@ -175,6 +175,7 @@ public class SpringCodegen extends AbstractJavaCodegen {
         }
     }
 
+    /*
     @Override
     public void addOperationToGroup(String tag, String resourcePath, Operation operation, CodegenOperation co, Map<String, List<CodegenOperation>> operations) {
         String basePath = resourcePath;
@@ -199,6 +200,7 @@ public class SpringCodegen extends AbstractJavaCodegen {
         opList.add(co);
         co.baseName = basePath;
     }
+    */
 
     @Override
     public void preprocessSwagger(Swagger swagger) {
